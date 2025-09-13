@@ -192,9 +192,4 @@ if image_input is not None:
             for i in sorted_idx[:5]:
                 st.write(f"- {class_names[i]}: {all_probs[i]:.4f}")
 
-# --------- Helpful deployment steps (closed triple-quote properly) ----------
-st.markdown("""
-### Deployment Steps (quick)
-1. Install dependencies locally:
-```bash
-pip install streamlit torch pillow requests numpy
+
